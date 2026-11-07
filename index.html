@@ -33,7 +33,7 @@
     <div class="wrap">
       <p class="eyebrow">BuenViaje · Android</p>
       <h1>Política de privacidad</h1>
-      <p class="updated">Vigente desde el 16 de octubre de 2026</p>
+      <p class="updated">Vigente desde el 7 de noviembre de 2026</p>
     </div>
   </header>
   <main class="wrap">
@@ -64,19 +64,20 @@
 
       <h2>Cuenta y acceso</h2>
       <p>Para usar BuenViaje se requiere una cuenta. Podés crearla o iniciar sesión con Google o con correo electrónico y contraseña. El servicio de autenticación guarda un identificador de cuenta, el correo electrónico, el método de acceso y los datos necesarios para mantener la sesión. Si elegís iniciar sesión con Google, el proveedor puede aportar tu nombre y correo al perfil de autenticación. Si usás correo y contraseña, la contraseña la administra el proveedor de autenticación y BuenViaje no la recibe en texto legible. El correo se usa para acceder, confirmar la cuenta, recuperar la contraseña y asociar una concesión VIP.</p>
-      <p>El backend puede guardar el estado de acceso de la cuenta, la fecha de inicio de la prueba gratuita de 30 días y, si corresponde, una concesión VIP asociada al correo verificado. No guarda tu perfil de costos, tus zonas, el texto de las ofertas, las capturas ni los resultados del OCR.</p>
+      <p>El backend puede guardar el estado de acceso de la cuenta, el estado de la prueba gratuita o de la suscripción y, si corresponde, una concesión VIP asociada al correo verificado. No guarda tu perfil de costos, tus zonas, el texto de las ofertas, las capturas ni los resultados del OCR.</p>
 
       <h2>Suscripciones</h2>
-      <p>La versión actual no vende suscripciones ni bloquea funciones por pago. Si se habilitan en una versión futura, las compras de la aplicación distribuida por Google Play se procesarán mediante Google Play Billing y RevenueCat ayudará a verificar y sincronizar el acceso. BuenViaje recibirá el identificador del producto, el estado y la vigencia de la compra; Google Play administra el pago, los medios de pago y los comprobantes. RevenueCat procesa la identidad seudónima de la cuenta y los datos de estado de compra necesarios para esa sincronización. Esta política se actualizará antes de habilitar las suscripciones.</p>
+      <p>Las suscripciones se procesan mediante Google Play Billing y RevenueCat ayuda a verificar y sincronizar el acceso. BuenViaje recibe el identificador del producto, el estado y la vigencia de la compra; Google Play administra el pago y los medios de pago. RevenueCat procesa la identidad seudónima de la cuenta y el estado de compra para esa sincronización. La duración de la prueba y el precio aplicables se muestran antes de confirmar la compra.</p>
 
       <h2>Proveedores de servicios</h2>
-      <p>Firebase Authentication presta el servicio de autenticación; Cloud Firestore guarda el estado de acceso necesario para las funciones de cuenta. Google procesa el inicio de sesión con Google y brinda ML Kit para el reconocimiento de texto en el teléfono. En una etapa futura, RevenueCat procesará la sincronización de suscripciones de Google Play. Cada proveedor trata los datos conforme a sus propios términos y políticas de privacidad.</p>
+      <p>Firebase Authentication presta el servicio de autenticación; Cloud Firestore guarda el estado de acceso necesario para las funciones de cuenta. Google procesa el inicio de sesión con Google y brinda ML Kit para el reconocimiento de texto en el teléfono. RevenueCat procesa la sincronización de suscripciones de Google Play. Cada proveedor trata los datos conforme a sus propios términos y políticas de privacidad.</p>
 
-      <h2>Registros técnicos y publicidad</h2>
-      <p>La versión de producción no envía registros técnicos de BuenViaje a sus servidores. Las compilaciones locales de prueba pueden escribir diagnósticos en el registro del dispositivo; no incluyen el texto reconocido de la oferta, la tarifa ni las capturas de pantalla. Google ML Kit puede transmitir las métricas técnicas descritas en su sección. BuenViaje no muestra anuncios.</p>
+      <h2>Estadísticas de uso</h2>
+      <p>Registramos aperturas, tiempo con la app visible, tiempo con el análisis habilitado y cantidad de ofertas analizadas, junto con versión, modelo de teléfono e idioma, para conocer el uso y mejorar el funcionamiento. Los resúmenes de Cloud Firestore se vinculan al identificador y correo verificado de la cuenta. Google Analytics recibe el identificador interno, eventos resumidos y los datos técnicos que recopila su SDK; no recibe el correo en nuestros eventos. No enviamos capturas, texto del OCR, direcciones ni importes de ofertas como parte de estas estadísticas. La configuración desactiva la recopilación del identificador publicitario y las funciones de personalización publicitaria. BuenViaje no muestra anuncios. Podés consultar las prácticas de <a href="https://support.google.com/analytics/answer/11582702">Google Analytics para aplicaciones</a>.</p>
+      <p>Los resúmenes propios se acumulan localmente y se sincronizan al abrir o iniciar sesión y al detener el análisis. Analytics administra sus envíos agrupados.</p>
 
       <h2>Conservación y solicitudes</h2>
-      <p>La configuración permanece en el almacenamiento privado del dispositivo hasta que la borres o desinstales la app. Los datos de cuenta se conservan mientras la cuenta esté activa. Podés eliminarla desde Cuenta en la app o consultar el procedimiento público de <a href="eliminar-cuenta.html">eliminación de cuenta</a>. La eliminación borra la cuenta de autenticación y los registros de acceso y prueba asociados al identificador de esa cuenta; puede tomar hasta 30 días. Las concesiones VIP se administran por separado mediante el correo y se pueden pedir quitar desde el procedimiento público. Las métricas de ML Kit las recibe Google y se rigen por las prácticas de retención y privacidad de Google enlazadas arriba. BuenViaje no mantiene una copia de las ofertas analizadas.</p>
+      <p>La configuración permanece en el almacenamiento privado del dispositivo hasta que la borres o desinstales la app. Los datos de cuenta y los resúmenes de uso de Firestore se conservan mientras la cuenta esté activa. Los contadores pendientes locales se limitan a 90 resúmenes diarios por cuenta; los datos de Analytics están sujetos a la retención configurada en el servicio. Podés eliminarla desde Cuenta en la app o consultar el procedimiento público de <a href="eliminar-cuenta.html">eliminación de cuenta</a>. La eliminación borra la cuenta de autenticación y los registros de acceso, prueba y resúmenes de uso de Firestore asociados al identificador de esa cuenta; puede tomar hasta 30 días. Las concesiones VIP se administran por separado mediante el correo y se pueden pedir quitar desde el procedimiento público. Las métricas de ML Kit las recibe Google y se rigen por las prácticas de retención y privacidad de Google enlazadas arriba. BuenViaje no mantiene una copia de las ofertas analizadas.</p>
       <p>Para consultas sobre privacidad, escribinos a <a href="mailto:sebasbanegas@gmail.com">sebasbanegas@gmail.com</a>.</p>
 
       <h2>Cambios a esta política</h2>
